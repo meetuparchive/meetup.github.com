@@ -1,0 +1,67 @@
+url: https://meetup.com
+baseurl: /
+author: Meetup OSS
+github: meetup
+
+# Site settings
+title: Meetup Github Projects
+email: support@meetup.com
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ornare rutrum nunc, quis tristique felis imperdiet in. Integer non elementum sapien, a luctus mauris. Proin congue, augue ut malesuada posuere, sapien ante luctus arcu, mollis gravida leo diam quis purus. Nulla eget nibh et diam consequat sodales a at ligula. Sed viverra nisl id nisl dignissim venenatis. Fusce lectus dolor, eleifend nec egestas ac, rutrum eget lorem. Vestibulum diam nisl, sagittis ut tristique et, mollis vitae neque. Curabitur pulvinar, nulla at rutrum pulvinar, velit ligula lacinia libero, nec faucibus nisl orci ac metus. Duis pulvinar ut lorem eu efficitur. Nam facilisis eget turpis nec placerat. Sed in facilisis enim."
+
+
+# Team names, titles and social links
+people:
+- name: Kay Garland
+  pic: 1
+  position: Lead Designer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Larry Parker
+  pic: 2
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Diana Petersen
+  pic: 3
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket 
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty
