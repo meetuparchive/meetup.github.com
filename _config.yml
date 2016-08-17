@@ -1,7 +1,7 @@
 url: https://meetup.com
-baseurl: /
 author: Meetup OSS
-github: meetup
+repository: meetup
+gems: ['jekyll-github-metadata']
 
 # Site settings
 title: Meetup Github Projects
@@ -46,16 +46,14 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+  - title: external-link
+    url: http://meetup
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/meetup
+  - title: facebook
+    url: https://www.facebook.com/Meetup
+  - title: rss
+    url: http://blog.meetup.com
 
 # Postal address (add as many lines as necessary)
 address:

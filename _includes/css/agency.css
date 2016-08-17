@@ -363,6 +363,10 @@ section h3.section-subheading {
     max-width: 400px;
 }
 
+#portfolio .portfolio-item .portfolio-img {
+    background-color: #fff;
+}
+
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
     position: absolute;
     width: 100%;
@@ -720,7 +724,6 @@ section#contact .text-danger {
 
 footer {
     padding: 25px 0;
-    text-align: center;
 }
 
 footer span.copyright {
@@ -740,6 +743,7 @@ footer ul.quicklinks {
 
 ul.social-buttons {
     margin-bottom: 0;
+    text-align: center;
 }
 
 ul.social-buttons li a {
