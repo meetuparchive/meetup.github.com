@@ -10,6 +10,7 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ornare
 
 
 # Team names, titles and social links
+# Sample team names for teams section
 people:
 - name: Kay Garland
   pic: 1
@@ -44,6 +45,49 @@ people:
     - title: google-plus
       url: #
 
+featured:
+- name: Sassquatch2
+  url: https://github.com/meetup/sassquatch2
+  description: Version 2 of the Meetup Sassquatch framework
+- name: Sassquatch
+  url: https://github.com/meetup/sassquatch
+  description: Sassquatch is a CSS foundation and framework for Meetup, built with Sass.
+- name: archery
+  url: https://github.com/meetup/archery
+  description: Archery is a two-dimensional R-Tree written in Scala.
+- name: TimeyWimey
+  url: https://github.com/meetup/timeywimey
+  description: Timeywimey is a collection of libraries providing conversion utilities for JodaTime, Legacy java.util.Date, and Java 8java.time classes.
+
+projects:
+- name: meetup-swatches
+  url: https://github.com/meetup/meetup-swatches
+- name: json-slim
+  url: https://github.com/meetup/json-slim
+- name: seldon
+  url: https://github.com/meetup/seldon
+- name: widgets
+  url: https://github.com/meetup/widgets
+- name: android-device-names
+  url: https://github.com/meetup/android-device-names
+- name: julep
+  url: https://github.com/meetup/julep
+- name: apple-of-my-iap
+  url: https://github.com/meetup/apple-of-my-iap
+- name: meetup-scala-class
+  url: https://github.com/meetup/meetup-scala-class
+- name: oauth2-starter-kit
+  url: https://github.com/meetup/oauth2-starter-kit
+- name: python-api-client
+  url: https://github.com/meetup/python-api-client
+- name: api-gradle-plugins
+  url: https://github.com/meetup/api-gradle-plugins
+- name: must.js
+  url: https://github.com/meetup/must.js
+- name: react-native-demo
+  url: https://github.com/meetup/react-native-demo
+
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: external-link
@@ -57,8 +101,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 632 Broadway, 10th Floor
+  - line: New York, NY 10017
 
 # Build settings
 markdown: kramdown
