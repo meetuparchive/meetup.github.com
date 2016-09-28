@@ -4,7 +4,7 @@ repository: meetup
 gems: ['jekyll-github-metadata']
 
 # Site settings
-title: Meetup Github Projects
+title: Meetup OSS
 email: support@meetup.com
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ornare rutrum nunc, quis tristique felis imperdiet in. Integer non elementum sapien, a luctus mauris. Proin congue, augue ut malesuada posuere, sapien ante luctus arcu, mollis gravida leo diam quis purus. Nulla eget nibh et diam consequat sodales a at ligula. Sed viverra nisl id nisl dignissim venenatis. Fusce lectus dolor, eleifend nec egestas ac, rutrum eget lorem. Vestibulum diam nisl, sagittis ut tristique et, mollis vitae neque. Curabitur pulvinar, nulla at rutrum pulvinar, velit ligula lacinia libero, nec faucibus nisl orci ac metus. Duis pulvinar ut lorem eu efficitur. Nam facilisis eget turpis nec placerat. Sed in facilisis enim."
 

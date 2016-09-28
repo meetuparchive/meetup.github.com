@@ -1,5 +1,5 @@
 <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
+    <section id="featured" class="projects bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -9,15 +9,15 @@
             </div>
             <div class="row">
             {% for project in site.featured %}
-                <div class="col-xs-12 col-md-6 portfolio-item">
-                    <a href="{{ project.url }}" id="#portfolioModal{{ project.name }}" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
+                <div class="col-xs-12 col-md-6 project-item">
+                    <a href="{{ project.url }}" id="#portfolioModal{{ project.name }}" class="project-link" data-toggle="modal">
+                        <div class="project-hover">
+                            <div class="project-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
                     </a>
-                    <div class="portfolio-caption">
+                    <div class="project-caption">
                         <h4 class="text-overflow">{{ project.name }}</h4>
                         <p>{{project.description}}</p>
                     </div>
