@@ -1,0 +1,23 @@
+<!-- All Projects Grid Section -->
+    <section id="all-projects" class="projects bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">All Available Projects</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+            {% for project in site.projects %}
+                <div class="col-xs-12 col-md-6 project-item">
+                    <a href="{{ project.url }}" id="#portfolioModal{{ project.name }}" class="project-link">
+                        <div class="project-caption">
+                            <h4 class="text-overflow">{{ project.name }}</h4>
+                            <p>{{project.description}}</p>
+                        </div>
+                    </a>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    </section>

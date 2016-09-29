@@ -1,0 +1,109 @@
+url: https://meetup.com
+author: Meetup OSS
+repository: meetup
+gems: ['jekyll-github-metadata']
+
+# Site settings
+title: Meetup OSS
+email: support@meetup.com
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ornare rutrum nunc, quis tristique felis imperdiet in. Integer non elementum sapien, a luctus mauris. Proin congue, augue ut malesuada posuere, sapien ante luctus arcu, mollis gravida leo diam quis purus. Nulla eget nibh et diam consequat sodales a at ligula. Sed viverra nisl id nisl dignissim venenatis. Fusce lectus dolor, eleifend nec egestas ac, rutrum eget lorem. Vestibulum diam nisl, sagittis ut tristique et, mollis vitae neque. Curabitur pulvinar, nulla at rutrum pulvinar, velit ligula lacinia libero, nec faucibus nisl orci ac metus. Duis pulvinar ut lorem eu efficitur. Nam facilisis eget turpis nec placerat. Sed in facilisis enim."
+
+
+# Team names, titles and social links
+# Sample team names for teams section
+people:
+- name: Kay Garland
+  pic: 1
+  position: Lead Designer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Larry Parker
+  pic: 2
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Diana Petersen
+  pic: 3
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+featured:
+- name: Sassquatch2
+  url: https://github.com/meetup/sassquatch2
+  description: Version 2 of the Meetup Sassquatch framework
+- name: Sassquatch
+  url: https://github.com/meetup/sassquatch
+  description: Sassquatch is a CSS foundation and framework for Meetup, built with Sass.
+- name: archery
+  url: https://github.com/meetup/archery
+  description: Archery is a two-dimensional R-Tree written in Scala.
+- name: TimeyWimey
+  url: https://github.com/meetup/timeywimey
+  description: Timeywimey is a collection of libraries providing conversion utilities for JodaTime, Legacy java.util.Date, and Java 8java.time classes.
+
+projects:
+- name: meetup-swatches
+  url: https://github.com/meetup/meetup-swatches
+- name: json-slim
+  url: https://github.com/meetup/json-slim
+- name: seldon
+  url: https://github.com/meetup/seldon
+- name: widgets
+  url: https://github.com/meetup/widgets
+- name: android-device-names
+  url: https://github.com/meetup/android-device-names
+- name: julep
+  url: https://github.com/meetup/julep
+- name: apple-of-my-iap
+  url: https://github.com/meetup/apple-of-my-iap
+- name: meetup-scala-class
+  url: https://github.com/meetup/meetup-scala-class
+- name: oauth2-starter-kit
+  url: https://github.com/meetup/oauth2-starter-kit
+- name: python-api-client
+  url: https://github.com/meetup/python-api-client
+- name: api-gradle-plugins
+  url: https://github.com/meetup/api-gradle-plugins
+- name: must.js
+  url: https://github.com/meetup/must.js
+- name: react-native-demo
+  url: https://github.com/meetup/react-native-demo
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: external-link
+    url: http://meetup
+  - title: github
+    url: http://github.com/meetup
+  - title: facebook
+    url: https://www.facebook.com/Meetup
+  - title: rss
+    url: http://blog.meetup.com
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 632 Broadway, 10th Floor
+  - line: New York, NY 10017
+
+# Build settings
+markdown: kramdown
+permalink: pretty
