@@ -6,8 +6,7 @@ gems: ['jekyll-github-metadata']
 # Site settings
 title: Meetup OSS
 email: support@meetup.com
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ornare rutrum nunc, quis tristique felis imperdiet in. Integer non elementum sapien, a luctus mauris. Proin congue, augue ut malesuada posuere, sapien ante luctus arcu, mollis gravida leo diam quis purus. Nulla eget nibh et diam consequat sodales a at ligula. Sed viverra nisl id nisl dignissim venenatis. Fusce lectus dolor, eleifend nec egestas ac, rutrum eget lorem. Vestibulum diam nisl, sagittis ut tristique et, mollis vitae neque. Curabitur pulvinar, nulla at rutrum pulvinar, velit ligula lacinia libero, nec faucibus nisl orci ac metus. Duis pulvinar ut lorem eu efficitur. Nam facilisis eget turpis nec placerat. Sed in facilisis enim."
-
+description: "Open Source at Meetup"
 
 # Team names, titles and social links
 # Sample team names for teams section
@@ -91,7 +90,7 @@ projects:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: external-link
-    url: http://meetup
+    url: http://meetup.com
   - title: github
     url: http://github.com/meetup
   - title: facebook
@@ -102,7 +101,7 @@ social:
 # Postal address (add as many lines as necessary)
 address:
   - line: 632 Broadway, 10th Floor
-  - line: New York, NY 10017
+  - line: New York, NY 10012
 
 # Build settings
 markdown: kramdown
